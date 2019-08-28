@@ -1,14 +1,15 @@
 # Birds-to-Words
 
-This repository contains the _"Birds-to-Words"_ dataset, a collection of paragraph-length descriptions of the differences between pairs of iNaturalist bird photograph.
+This repository contains the _Birds-to-Words_ dataset, a collection of paragraph-length descriptions of the differences between pairs of iNaturalist bird photograph.
 
 The Birds-to-Words dataset was introduced in the paper:
 
 **Neural Naturalist: Generating Fine-Grained Image Comparisons**<br/>
 [Maxwell Forbes](http://maxwellforbes.com/), [Christine Käser-Chen](https://twitter.com/kaeserchen), [Piyush Sharma](https://ai.google/research/people/PiyushSharma), [Serge Belongie](http://blogs.cornell.edu/techfaculty/serge-belongie/)<br/>
-EMNLP 2019
+_EMNLP 2019_
 
 The data is provided in the file `birds-to-words-v1.0.tsv` in this repository.
+
 
 ## Sample
 
@@ -22,7 +23,7 @@ The data is provided in the file `birds-to-words-v1.0.tsv` in this repository.
 
 2. Animal 1 has a brown head and wings, with a pale breast. The breast also has darker brown speckles on it. Animal 2 has a bright blue area around its eye, with a black patch right along the eye. Animal 2 also has a darker brown breast and greenish wings and back of its head.
 
-3. Animal 1 has a brown and white face, animal 2 has a black and bright blue face. Animal 1 has a white breast with black spots, Animal 2 has a brown breast. Animal 1 has brown wings, Animal 2 has green wings.
+3. Animal 1 has a brown and white face, animal 2 has a black and bright blue face. Animal 1 has a white breast with black spots, animal 2 has a brown breast. Animal 1 has brown wings, animal 2 has green wings.
 
 4. Animal 1 is much smaller and shorter. Animal 2 has a larger head and longer tail feathers. Animal 1 has extensive spotting on the neck, chest, and belly. Animal 2 has turquoise head patches and brown coloring on the chest and belly.
 
@@ -44,3 +45,8 @@ The `tsv` file is tab-separated and contains the following eleven columns:
 | 9      | `split`              | string | Split for training models and reporting results. One of: `{train, val, test}`                                                                                                                              |
 | 10     | `annN`               | int    | We collect up to five annotations of each image pair. This is the annotation number of this instance. Value is one of: `{1,2,3,4,5}`                                                                                  |
 | 11     | `description`        | string | A natural language paragraph describing the differences between the animals in the two photographs                                                                                                         |
+
+
+## License
+
+The Birds-to-Words dataset is released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For the full license, see `LICENSE.txt`.
