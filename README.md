@@ -1,6 +1,6 @@
 # Birds-to-Words
 
-This repository contains the _Birds-to-Words_ dataset, a collection of paragraph-length descriptions of the differences between pairs of iNaturalist bird photograph.
+This repository contains the _Birds-to-Words_ dataset, a collection of paragraph-length descriptions of the differences between pairs of [iNaturalist](https://www.inaturalist.org) bird photographs.
 
 The Birds-to-Words dataset was introduced in the paper:
 
