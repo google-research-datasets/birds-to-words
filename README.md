@@ -5,7 +5,7 @@ This repository contains the _Birds-to-Words_ dataset, a collection of paragraph
 The Birds-to-Words dataset was introduced in the paper:
 
 **Neural Naturalist: Generating Fine-Grained Image Comparisons**<br/>
-[Maxwell Forbes](http://maxwellforbes.com/), [Christine Käser-Chen](https://twitter.com/kaeserchen), [Piyush Sharma](https://ai.google/research/people/PiyushSharma), [Serge Belongie](http://blogs.cornell.edu/techfaculty/serge-belongie/)<br/>
+[Maxwell Forbes](http://maxwellforbes.com/), [Christine Kaeser-Chen](https://twitter.com/kaeserchen), [Piyush Sharma](https://ai.google/research/people/PiyushSharma), [Serge Belongie](http://blogs.cornell.edu/techfaculty/serge-belongie/)<br/>
 _EMNLP 2019_
 
 The data is provided in the file `birds-to-words-v1.0.tsv` in this repository.
